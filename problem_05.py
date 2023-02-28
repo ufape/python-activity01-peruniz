@@ -28,7 +28,12 @@ Volume: 14137.1550L
 
 
 def main():
-    pass # your code here
+    raio=float(input("Digite o valor do raio: "))
+    pi=3.14159
+    volume=(4/3)*pi*(raio**3)
+    print(f"Volume: {volume:.4f}L")
+  
+          
 
 
 if __name__ == '__main__':

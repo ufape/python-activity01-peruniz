@@ -37,7 +37,21 @@ Contracheque
 
 
 def main():
-    pass # your code here
+    print("Programa Simples de Pagamento\n")
+    Horas = int(input("Informe quantas horas você trabalhou: "))
+    HT = 25.00
+    SB = Horas*HT
+    IMP = 0.125
+    IC = SB*IMP
+    SL = SB-IC
+    print("\nContracheque")
+    print(f"\t\tHoras trabalhadas: {Horas:}")
+    print(f"\t\tValor da Hora: R${HT:.2f}") 
+    print(f"\t\tSalário Bruto: R${SB:.2f}")
+    print(f"\t\tImposto: R${IC:.2f}")
+    print(f"\t\tSalário Líquido: R${SL:.2f}")
+      
+      
 
 
 if __name__ == '__main__':

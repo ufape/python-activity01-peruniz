@@ -32,7 +32,27 @@ Detectamos 4 valores positivos.
 
 
 def main():
-    pass # your code here
+    positivos=0
+    valor1=int(input("Valor (1/6): "))
+    if valor1 > 0 :
+      positivos=positivos+1
+    valor2=int(input("Valor (2/6): "))
+    if valor2 > 0 :
+      positivos=positivos+1
+    valor3=int(input("Valor (3/6): "))
+    if valor3 > 0 :
+      positivos=positivos+1
+    valor4=int(input("Valor (4/6): "))
+    if valor4 > 0 :
+      positivos=positivos+1  
+    valor5=int(input("Valor (5/6): "))
+    if valor5 > 0 :
+      positivos=positivos+1
+    valor6=int(input("Valor (6/6): "))
+    if valor6 > 0 :
+      positivos=positivos+1
+    print(f"Detectamos {positivos:} valores positivos.")
+    
 
 
 if __name__ == '__main__':
